@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/sass/main.scss" />
+
+    <script defer src="src/js/controller.js"></script>
+  </head>
+  <body>
+    <div class="stopwatch-container">
+      <h1 class="heading-1">Vanilla Javascript Stopwatch</h1>
+      <h2 class="heading-2">by Abuzar Ansari</h2>
+
+      <p class="time">
+        <span class="time__min">12</span> &nbsp;:
+        <span class="time__sec">45</span>&nbsp;:
+        <span class="time__ms">7</span>
+      </p>
+
+      <div class="buttons">
+        <a href="#" class="btn btn__start">Start</a>
+        <a href="#" class="btn btn__stop">Stop</a>
+        <a href="#" class="btn btn__reset">Reset</a>
+        <a href="#" class="btn btn__mark">Mark</a>
+      </div>
+    </div>
+
+    <div class="mark">
+
+      <h1 class="heading-1">Marked time</h1>
+      <div class="mark__container">
+        <!-- <div class="mark__container">
+          <p class="mark__serial">04</p>
+          <p class="mark__timestamp">12 : 50 : 30</p>
+          <a href="#" class="btn-delete">Delete</a>
+        </div> -->
+        
+      </div>
+    </div>
+  </body>
+</html>

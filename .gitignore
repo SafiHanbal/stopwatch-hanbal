@@ -1,0 +1,4 @@
+# Ignoring node modules, dist and .cache folders
+node_modules/
+dist/
+.cache/
